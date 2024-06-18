@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.healthcaresector">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@drawable/hospital"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/hospital"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.HealthCareSector"
+        tools:targetApi="31">
+        <activity
+            android:name=".privatehealth"
+            android:exported="false" />
+        <activity
+            android:name=".medicine"
+            android:exported="false" />
+        <!--
+             TODO: Before you run your application, you need a Google Maps API key.
+
+             To get one, follow the directions here:
+
+                https://developers.google.com/maps/documentation/android-sdk/get-api-key
+
+             Once you have your API key (it starts with "AIza"), define a new property in your
+             project's local.properties file (e.g. MAPS_API_KEY=Aiza...), and replace the
+             "YOUR_API_KEY" string in this file with "${MAPS_API_KEY}".
+        -->
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="YOUR_API_KEY" />
+
+        <activity
+            android:name=".MapsActivity"
+            android:exported="false"
+            android:label="@string/title_activity_maps" />
+        <activity
+            android:name=".admin"
+            android:exported="false" />
+        <activity
+            android:name=".DisplayData"
+            android:exported="false" />
+        <activity
+            android:name=".kMCH"
+            android:exported="false" />
+        <activity
+            android:name=".PSG"
+            android:exported="false" />
+        <activity
+            android:name=".KG"
+            android:exported="false" />
+        <activity
+            android:name=".Apolo"
+            android:exported="false" />
+        <activity
+            android:name=".hospitalActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Sponsor"
+            android:exported="false" />
+        <activity
+            android:name=".DoctorSelection"
+            android:exported="false" />
+        <activity
+            android:name=".PatientActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Selection"
+            android:exported="false" />
+        <activity
+            android:name=".Login"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

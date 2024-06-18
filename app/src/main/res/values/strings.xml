@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">HealthCareSector</string>
+    <string name="admin_login">Admin</string>
+    <string name="don_t_have_an_account_login">Don\'t have an account login</string>
+    <string name="col1">Name</string>
+    <string-array name="timeframes">
+        <item>Selected time you are available</item>
+        <item>7-9 AM</item>
+        <item>9-11 AM</item>
+        <item>11-1 PM</item>
+        <item>2-4 PM</item>
+        <item>4-6</item>
+    </string-array>
+
+    <string-array name="department">
+        <item>Select your department</item>
+        <item>Surgeon</item>
+        <item>Child Specialist</item>
+        <item>Dentist</item>
+
+    </string-array>
+    <string-array name="Specialization">
+        <item>Select your specialization </item>
+        <item>dentist</item>
+        <item>child Specialist</item>
+    </string-array>
+    <string name="title_activity_maps">MapsActivity</string>
+</resources>
