@@ -44,15 +44,31 @@ This project is open-source and available under the MIT License.
 
 **SAMPLE SCREEN SHOTS:**
 
-**LOGIN PAGE**     
+**LOGIN PAGE:**     
+
+
 ![image](https://github.com/user-attachments/assets/a9efd80e-e52a-4c39-8f3e-1f689edde514)
 
+
+
+
 **REGISTRATION PAGE**
+
+
 ![image](https://github.com/user-attachments/assets/7b73d20b-250a-48ef-84f3-3fe0e83ec03d)
 
+
+
+
 **AVAILABLE BED,OXYGEN CYLINDER AND AVAILABLE DOCTOR :**
+
+
 ![image](https://github.com/user-attachments/assets/ba765b3d-3185-42f1-95a5-3db229b88e36)
 
+
+
 **ER DIAGRAM:**
+
+
 
 ![image](https://github.com/user-attachments/assets/2bd519af-19dd-4853-96fe-bbfb3ed737f6)
