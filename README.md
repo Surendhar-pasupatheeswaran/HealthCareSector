@@ -1,6 +1,9 @@
+**INTRODUCTION**
+
 This project was developed to address the challenges faced during the COVID-19 pandemic. It provides real-time information about the availability of hospital resources, such as beds, oxygen cylinders, and doctors, in a specific hospital. The app aims to help users, especially the underprivileged, access private hospital services when government facilities are unavailable.
 
-Features
+**Features**
+
 Display availability of beds, oxygen cylinders, and doctors.
 Enables users to seek medical services from private hospitals.
 Designed to ensure timely access to medical facilities for people in need.
@@ -12,7 +15,8 @@ Open Android Studio and import the project.
 Gradle Setup
 
 If any issues occur with Gradle, you may need to manually add Gradle to your system.
-Steps to add Gradle:
+
+**Steps to add Gradle:**
 
 Download the required Gradle version from the official Gradle website.
 Extract the downloaded file.
@@ -30,3 +34,25 @@ Contributions are welcome! Feel free to fork the project and submit pull request
 License
 This project is open-source and available under the MIT License.
 
+
+**TECHNOLOGIES USED:**
+
+    Android Studio
+
+    SQLite DB
+
+
+**SAMPLE SCREEN SHOTS:**
+
+**LOGIN PAGE**     
+![image](https://github.com/user-attachments/assets/a9efd80e-e52a-4c39-8f3e-1f689edde514)
+
+**REGISTRATION PAGE**
+![image](https://github.com/user-attachments/assets/7b73d20b-250a-48ef-84f3-3fe0e83ec03d)
+
+**AVAILABLE BED,OXYGEN CYLINDER AND AVAILABLE DOCTOR :**
+![image](https://github.com/user-attachments/assets/ba765b3d-3185-42f1-95a5-3db229b88e36)
+
+**ER DIAGRAM:**
+
+![image](https://github.com/user-attachments/assets/2bd519af-19dd-4853-96fe-bbfb3ed737f6)
